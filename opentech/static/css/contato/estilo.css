@@ -1,0 +1,11 @@
+.contato a {
+    text-decoration: none;
+    color: #000;
+}
+.contato a:hover {
+    color: #000;
+}
+
+.contato ul a, ul p {
+    font-size: 1.3rem;
+}

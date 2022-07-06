@@ -1,0 +1,55 @@
+{% extends 'modelo/modelo.html' %}
+
+{% load static %}
+
+{% block css %}
+<!-- css -->
+<link rel="stylesheet" href="{% static 'css/modelo/estilo.css' %}">
+<link rel="stylesheet" href="{% static 'css/contato/estilo.css' %}">
+{% endblock %}
+
+{% block titulo %}
+<title>Contato</title>
+{% endblock %}
+
+{% block conteudo %}
+
+<div class="alert alert-light mt-3">
+    <h1>Contato</h1>
+</div>
+
+<div class="row d-flex justify-content-center text-center contato">
+    <div class="col-md-6">
+        <h2>Localização</h2>
+        <ul class="list-unstyled mt-4">
+            <li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3658.1157997288883!2d-46.6658969!3d-23.5283371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5804e6f27dcb%3A0x963a5fce9a0b9093!2sR.%20Dr.%20Alfredo%20de%20Castro%2C%20200%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001155-060!5e0!3m2!1spt-BR!2sbr!4v1656704638540!5m2!1spt-BR!2sbr"
+                        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+            <li class="mt-4">
+                <a href="https://goo.gl/maps/uktzNKgmMJUBFhmf8" target="_blank">
+                    Rua Dr. Alfredo de Castro, 200 – Conj. 806 e 807 – Barra Funda, São Paulo – SP,
+                    01155-060
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Contato</h2>
+        <ul class="list-unstyled mt-4">
+            <li>
+                <p>(11) 3866-1201</p>
+            </li>
+            <li class="mt-2">
+                <address>
+                    <a href="mailto:opentech@ot.com.br">opentech@ot.com.br</a>
+                </address>
+            </li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
+

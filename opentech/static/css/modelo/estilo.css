@@ -1,0 +1,29 @@
+html {
+    overflow-x: hidden;
+}
+.navbar {
+    background: #325A94;
+    box-shadow: 1px 1px 10px;
+}
+header .nav-item {
+    margin: 0 40px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #325A94;
+    margin-top: 30px;
+    padding: 30px;
+    color: #fff;
+}
+footer p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    color: #fff;
+}

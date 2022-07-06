@@ -1,0 +1,146 @@
+{% extends 'modelo/modelo.html' %}
+
+{% load static %}
+
+{% block titulo %}
+<title>Informações Institucionais</title>
+{% endblock %}
+
+{% block conteudo %}
+<div class="alert alert-light mt-3">
+    <h1>Informações Institucionais</h1>
+    <p>
+        Resumidamente podemos descrever que a OpenTech como empresa atua desde de 1997 em algumas frentes distintas, e
+        sempre se atualizando em relação as novas demandas de mercado.
+    </p>
+</div>
+
+<div class="row mt-3">
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Servicos">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Serviços Profissionais
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#Servicos">
+                    <div class="accordion-body">
+                        <p>
+                            Os profissionais atendem aos requisitos especializados em Deployment, Commisioning, O&M,
+                            Suporte e Managed Services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Solucoes">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Soluções ou Projetos para necessidades específicas
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#Solucoes">
+                    <div class="accordion-body">
+                        <p>
+                            Junto com os nossos parceiros, oferecemos soluções utilizando o que á melhor no mercado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Planejamento">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                        Planejamento de Projetos
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                     data-bs-parent="#Planejamento">
+                    <div class="accordion-body">
+                        <p>
+                            Com o desenho da Arquitetura em mãos, após ser submetido ao processo de Quality Assurance, a
+                            OpenTech encaminha o projeto para uma de suas etapas mais importantes: o planejamento. É
+                            nessa fase que todas as informações levantadas até o momento, devem ser organizadas e
+                            montadas estrategicamente em forma de planejamento, utilizando toda a experiência e
+                            conhecimento da OpenTech no assunto, pois um bom planejamento é fundamental para o sucesso
+                            do projeto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Operacao">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFor">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
+                        Operação
+                    </button>
+                </h2>
+                <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor"
+                     data-bs-parent="#Operacao">
+                    <div class="accordion-body">
+                        <p>
+                            Além de garantir a operação dos projetos de gerenciamento corporativo em níveis adequados e
+                            impedir a sobrecarga das equipes internas, os serviços de Operação da OpenTech possibilitam
+                            a transferência do know how integral do projeto, inclusive através da documentação completa
+                            dos processos, possibilitando que a operação seja realizada internamente a qualquer momento
+                            e sem problemas de transição.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Suporte">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                        Suporte
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                     data-bs-parent="#Suporte">
+                    <div class="accordion-body">
+                        <p>
+                            Com seus serviços de manutenção e suporte técnico on-line, remoto e para múltiplas
+                            ferramentas integradas, a OpenTech proporciona um funcionamento otimizado do ambiente de TI,
+                            mesmo nos mais altos níveis de exigência. Seus clientes contam com uma assistência rápida e
+                            eficaz no suporte de sistemas e soluções de alta criticidade, para todos os níveis de
+                            complexidade, 24 horas por dia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

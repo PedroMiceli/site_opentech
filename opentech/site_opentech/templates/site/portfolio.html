@@ -1,0 +1,210 @@
+{% extends 'modelo/modelo.html' %}
+
+{% load static %}
+
+{% block titulo %}
+<title>Portfólio</title>
+{% endblock %}
+
+{% block conteudo %}
+
+<div class="alert alert-light mt-3">
+  <h1>Portfólio</h1>
+</div>
+
+<div class="row mt-3">
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Professional-Services">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Professional Services & Consulting
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#Professional-Services">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Application Comissioning</li>
+                            <li>Deplyment & Customization</li>
+                            <li>Management Applications</li>
+                            <li>(OSS)</li>
+                            <li>Service & SLA Management</li>
+                            <li>Network & Unified</li>
+                            <li>Communications (UCS)</li>
+                            <li>Data Management & Storage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Desenvolvimento-DevOps">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Desenvolvimento & DevOps
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#Desenvolvimento-DevOps">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Desenvolvimento (Java, .NET, Siebel, Python/Spark/MapReduce)</li>
+                            <li>Analista de dados</li>
+                            <li>Arquitetos de Big Data</li>
+                            <li>Data Scientist</li>
+                            <li>Desenvolvimento de Soluções</li>
+                            <li>Especiais e Custom</li>
+                            <li>Analista de Teste</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Multi-Cloud">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                        Multi - Cloud
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                     data-bs-parent="#Multi-Cloud">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>PS para AWS, Azure, Google e IBM</li>
+                            <li>Integração Multi - Cloud</li>
+                            <li>OS para Migração e Deployment</li>
+                            <li>OpenStac e CloudForms</li>
+                            <li>Automação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Serviços-Gerenciados">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFor">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
+                        Serviços Gerenciados e Serviços de Sustentação
+                    </button>
+                </h2>
+                <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor"
+                     data-bs-parent="#Serviços-Gerenciados">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>N1/N2 - NOC & SOC</li>
+                            <li>N1/L1 - Suporte Local e Remoto</li>
+                            <li>N2/N3 - Suporte Local e Remoto Especializado</li>
+                            <li>Big Data/ Fast Data</li>
+                            <li>OSS/Bss APPs Billing</li>
+                            <li>IBM / Oracle Middleware</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="IDS">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        IDS - Infra Data & Cloud Services
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                     data-bs-parent="#IDS">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Data Center (Windows, Linux e VMware)</li>
+                            <li>Storage & Backup</li>
+                            <li>Advanced Storage</li>
+                            <li>Rede/ Networking/ UCS</li>
+                            <li>Gerência de Infraestrutura</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="accordion accordion-flush" id="Digital-Transformation">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false"
+                            aria-controls="flush-collapseSix">
+                        Digital & Transformation
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                     data-bs-parent="#Digital-Transformation">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>PS para AWS, Azure, Google e IBM</li>
+                            <li>Integração Multi - Cloud</li>
+                            <li>OS para Migração e Deployment</li>
+                            <li>OpenStac e CloudForms</li>
+                            <li>Automação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4 mx-auto">
+        <div class="accordion accordion-flush" id="Outsourcing">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        Outsourcing & Managed Services
+                    </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                     data-bs-parent="#Outsourcing">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Infraestrutura</li>
+                            <li>Aplicações BSS</li>
+                            <li>PMO</li>
+                            <li>Gerência de Projetos</li>
+                            <li>Aplicações OSS</li>
+                            <li>Bodyshop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
+
